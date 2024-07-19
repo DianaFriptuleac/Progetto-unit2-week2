@@ -50,8 +50,11 @@ main img:hover{
 }
 
 #btn-membership{
-    background-color: rgb(208, 207, 207);
+    background-color: rgb(236, 234, 234);
 }
 #footer-account{
     height: 10vh;
+}
+.logo-settings img{
+    width:25px ;
 }
