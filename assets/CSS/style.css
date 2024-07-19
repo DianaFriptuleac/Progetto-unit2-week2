@@ -1,13 +1,13 @@
 #logo-netflix img,
 #logo-netflix-profile img{
-    width: 100%
+    width: 100%;
 }
 #logo-netflix,
 #logo-netflix-profile{
-    width: 20%;
+    width: 15%;
 }
 .icon-kids{
-    width: 20%;
+    width: 15%;
 }
 .div-kids-icon{
     width: 30%; 
@@ -24,11 +24,23 @@
     width: 72%;
     margin-top: 8em;
 }
+#navbarSupportedContent{
+    justify-content: space-between;
+}
+main img{
+    transform: 0.4s ease-out;
+}
+main img:hover{
+    transform:scale(1.4);
+}
+
+/*profile page*/
+
 #btn-maturity{
     width: 45%;
 }
 #btn-edit{
-    width: 20%;
+    width: 25%;
 }
 #checkbox{
     background-color: transparent;
