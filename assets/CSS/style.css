@@ -4,7 +4,7 @@
 }
 #logo-netflix,
 #logo-netflix-profile{
-    width: 15%;
+    width: 10%;
 }
 .icon-kids{
     width: 15%;
@@ -47,4 +47,8 @@ main img:hover{
     width:2em;
     height: 2em;
     border-color:gray;
+}
+
+#btn-membership{
+    background-color: rgb(208, 207, 207);
 }
