@@ -8,10 +8,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/CSS/style.css">
   </head>
-  <body>
+  <body >
     <header>
         <!--Navbar-->
-    <nav class="navbar navbar-expand-lg bg-black">
+    <nav class="navbar navbar-expand-lg bg-black text-light">
         <div class="container-fluid">
           <a class="navbar-brand" id="logo-netflix" href="https://www.netflix.com/">
             <img src="assets/netflix_logo.png" alt="Logo-Netflix">
@@ -54,24 +54,24 @@
     </div>
       </nav>
       <main>
-        <div class="container my-5">
+        <div class="container my-5 w-75">
             <h1>Account</h1>
             <hr>
             <div class="row">
-                <div class="col">
-                    <h4 class="text-secondary">MEMBERSHIP & BILLING</h4>
-                    <button type="button"id="btn-membership" class="btn rounded-0 text-start text-black">Cancel Membership </button>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <h5 class="text-body-tertiary">MEMBERSHIP & BILLING</h5>
+                    <button type="button"id="btn-membership" class="btn rounded-0 text-start text-black px-4">Cancel Membership</button>
                 </div>
-            <div class="col d-flex justify-content-between">
-                <div>
+            <div class="col-12 col-md-6 col-lg-5 d-flex justify-content-between">
+                <div class="fw-bold">
                 <p>Student@strive.school</p>
-                <p class="text-secondary">Password: ********</p>
-                <p class="text-secondary">Phone: 321 044 1279</p>
+                <p class="text-body-tertiary">Password: ********</p>
+                <p class="text-body-tertiary">Phone: 321 044 1279</p>
                 <hr>
                <span><i class="bi bi-paypal"></i><span class="fw-bold"><em>PayPal</em></span> <span class="fw-bold">admin@strive.school</span> </span> 
             </div>
-            <div>
-            <div class="col text-end">
+          </div>
+            <div class="col-12 col-md-6 col-lg-4 text-end mt-0">
                 <p class="text-primary">Change account email</p>
                 <p class="text-primary">Change password</p>
                 <p class="text-primary">Change phone number</p>
@@ -82,21 +82,23 @@
                 <p class="text-primary">Where to buy gift cardsr</p>
             </div>
             </div>
-        </div>
-        <hr>
-        </div>
-        <div class="row">
-            <div class="col text-secondary">PLAN DETAILS</div>
-            <div class="col text-end me-5"> 
-            <span class="fw-bold">Premium </span><span class="border border-3 border-black px-2 rounded-1">ULTRA <span class="fw-bold">HD</span></span>
-        </div>
-            <div class="col text-primary text-end"> Change plan</div>
-        </div>
         <hr>
         <div class="row">
-            <div class="col">
-                <div class="col text-secondary">SETTINGS</div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <h5 class="text-body-tertiary">PLAN DETAILS</h5>
             </div>
+            <div class="col-12 col-md-6 col-lg-4 text-end me-5 "> 
+              <p class="text-start">
+            <span class="fw-bold">Premium </span>
+            <span class="border border-3 border-black px-2 rounded-1">ULTRA <span class="fw-bold">HD</span></span></p>
+        </div>
+            <div class="col-12 col-md-6 col-lg-4 text-primary text-end"> Change plan</div>
+        </div>
+        <hr>
+        <div class="row">
+                <div class="col-12 col-md-6 col-lg-3">
+                  <h5 class="text-body-tertiary">SETTINGS</h5>
+                </div>
             <div class="col text-primary text-start">
                 <p>Parentai controls</p>
                 <p>Test participation</p>
@@ -108,18 +110,20 @@
         </div>
         <hr>
         <div class="row">
-            <div class="col text-secondary">MY PROFILE</div>
-            <div class="col"> 
-                <p class="fw-bold"> <span class="logo-settings me-2"><img src="assets/kids_icon.png" alt=""></span>Stive Student</p>
+            <div class="col-12 col-md-6 col-lg-3">
+             <h5 class=" text-body-tertiary"> MY PROFILE</h5>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3"> 
+                <p class="fw-bold"> <span class="logo-settings me-2"><img src="assets/kids_icon.png" alt=""></span>Strive Student</p>
                 <p class="text-primary">Language</p>
                 <p class="text-primary">Playback</p>
                 <p class="text-primary">Subtitle appearance</p>
             </div>
-            <div class="col text-primary">
+            <div class="col-12 col-md-6 col-lg-3 text-primary d-flex flex-column justify-content-center">
                 <p>Viewing activity</p>
                 <p>Ratings</p>
             </div>
-            <div class="col text-primary text-end">
+            <div class="col-12 col-md-6 col-lg-3 text-primary text-end">
                 <p>Manage profiles</p>
                 <p>Add profile eail</p>
             </div>
